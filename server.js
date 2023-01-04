@@ -26,6 +26,13 @@ app.get('/', function (req, res) {
     res.send('Hi, it works');
 })
 
+app.get('/register', function (req, res) {
+    res.send('From register');
+})
+
+app.get('/login', function (req, res) {
+    res.send('From login');
+})
 //..
 app.listen(PORT, function() {
     log("Backend server listening at http://localhost:" + PORT);  
