@@ -40,7 +40,6 @@ app.listen(PORT, function() {
 
 
 
-
 //Mail function manager...
 //..receiving data
 app.post('/enroll', (req, res) => {
