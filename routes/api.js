@@ -98,6 +98,11 @@ router.post('/login', (req, res) => {
     }
 })
 
+router.post('/googleLogin', (req, res) => {
+    console.log(req.body);
+    res.redirect('https://akapp.onrender.com/reports')
+});
+
 /* router.post('/connection', (req, res) => {
     Teacher.findOne((error, teacher) => {
         if (error) {
