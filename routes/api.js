@@ -29,6 +29,9 @@ router.get('/login', (req, res) => {
 // db.getUsers({showCredentials: true, filter: {mechanisms: "SCRAM-SHA-256"}})
 
 })
+router.get('/googleLogin', (req, res) => {
+    res.send("From google API Login")
+})
 
 // db.getUsers({showCredentials: true, filter: {mechanisms: "SCRAM-SHA-256"}})
 
